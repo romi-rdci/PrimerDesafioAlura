@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Encriptador - v. beta</title>
+</head>
+<body>
+    <!-- -->    
+
+        <header class="nav"> 
+            <img class="img_logo" src="./imagenes/Logo.png" alt="logo">
+        </header>
+<main>
+        <section class=""> <!--formato_alinear_items_centro --> 
+            <div class=""> <!--formato_alinear_items_col --> 
+
+                <p class="titulo"><strong>Ingrese el texto aquí</strong></p>  
+
+                    <textarea type="text" name="txt_paraencriptar" rows="10" cols="50" class="" id="txt_paraencriptar" autofocus placeholder=""></textarea> <!--txt_paraencriptar --> 
+
+                    <p class="informacion"><img class="img_exclamacion" src="/imagenes/bi_exclamation-circle-fill.png"> Letras minúsculas y sin acentos</p>
+                    
+                    <div class="area_botones"> 
+
+                        <a onclick="encriptar();" class="boton botonOn" type="button" id="btn_Encriptar">Encriptar</a>
+
+                        <a onclick="desencriptar();" class="boton botonOff" type="button" id="btn_desencriptar">Desencriptar</a> 
+                    </div>
+                </div>
+        </section>
+        
+        <section class="section_persona">      
+            <!-- formato_alinear_items_col fomato_desencriptar-->
+
+                    
+                    <div class="persona_texto_abajo">
+                        <img class="img_persona" src="./imagenes/Muñeco.png" alt="imagen_inicio"/>
+
+                        <h1 class="persona_h1_mensaje">Ningún mensaje fue encontrado</h1>
+
+                        <p class="persona_p_mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    
+                        <textarea type="text" name="ingreso_texto" rows="10" cols="50" class="txt_area_encriptado" id="txt_encriptado" autofocus placeholder=""></textarea>
+
+                        <button class="boton" type="button" id="btn_copiar" style="display: none;">Copiar</button><!--boton --> 
+                    </div>
+
+        </section>
+    </main>
+        <footer class="footer">
+            <p>Desarrollado por @rdci Julio-2024</p>
+        </footer>
+         <script src="./js/main.js"></script>
+</body>
+
+</html>

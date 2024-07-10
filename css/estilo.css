@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+    --body-color: #E5E5E5;
+    --btn-colorOff: #D8DFE8;
+    --clr-primary: #0A3871;
+    --clr-secondary: #FFFFFF;
+    --clr-color-black: #000000;
+    --clr-color-descrpcion: #495057;
+
+    --font-family-Inter: "Inter", sans-serif;
+}
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-Inter);
+}
+
+.nav{
+    margin: 2% 0% 2% 0%;
+}
+
+main{
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+:focus{
+    outline: none;
+}
+
+body {
+    box-sizing: border-box;
+    background: var(--body-color);
+    height: 90vh;
+}
+
+.img_persona{
+    width: 336px;
+    height: 304px;
+}
+
+.img_logo{
+    width: 120px;
+    height: 48px;
+}
+
+.img_exclamacion{
+    width: 16px;
+    height: 16px;
+}
+
+.titulo{
+    line-height: 150%;
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--clr-color-black);
+    shape-outside: 1px;
+    text-shadow: 1px 1px 2px var(--clr-primary);
+    text-align: left top;
+}
+
+.informacion{
+    display: flex;
+    font-size: 12px;
+    color: var(--clr-color-descrpcion) ;
+    text-align: left;
+    line-height: 150%;
+    align-items: top;
+    margin: 5px;
+    gap: .3rem;
+}
+
+/*espacio para los botones*/
+.area_botones{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+/*formato para los botones*/
+.boton{
+    width: 228px;
+    border-radius: 24px;
+    text-align: center;
+    padding: 21.5px 0;
+    border: solid 1px var(--clr-primary);
+    cursor: pointer;
+}
+.botonOff {
+    color: var(--clr-primary);
+    background: var(--btn-colorOff);
+    
+}
+.botonOn{
+    color: var(--clr-secondary);
+    background: var(--clr-primary);
+}
+
+.persona_texto_abajo{
+    background-color: var(--clr-secondary);
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+    border-radius: 32px;
+    width: 90%;
+    text-align: center;
+    
+}
+.persona_h1_mensaje{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.persona_p_mensaje{
+    font-size: 1rem;
+
+}
+.section_persona{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 900px;
+}
+
+.txt_area_encriptado{
+    background-color: var(--clr-secondary);
+    border: none;
+    height: 144px;
+    width: 85%;
+   /* display: none;*/
+}
+
+textarea{
+    background: var(--body-color);
+    padding: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    text-transform: lowercase;
+    font-size: 32px;
+    font-weight: regular;
+    color: var(--clr-primary);
+    resize: none;
+
+}
+
+
+
+
+
+
+
+.cuadro_derecho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.footer{
+    background-color: var(--clr-primary);
+    padding: 24px;
+    color: var(--clr-secondary);
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+
